@@ -1,0 +1,21 @@
+{
+  "name": "random-elements-without-repeating",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Horacio Herrera",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js --quiet"
+  },
+  "nodemonConfig": {
+    "verbose": false,
+    "ignore": [
+      ".git",
+      "node_modules/**/node_modules"
+    ],
+    "execMap": {
+      "rb": "ruby",
+      "pde": "processing --sketch={{pwd}} --run"
+    }
+  }
+}
